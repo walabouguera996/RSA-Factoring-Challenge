@@ -1,13 +1,38 @@
-RSA Factoring Challenge
-We have sniffed an unsecured network and found numbers that are used to encrypt very important documents. It seems that those numbers are not always generated using large enough prime numbers. Your mission should you choose to accept it, is to factorize these numbers as fast as possible before the target fixes this bug on their server - so that we can decode the encrypted documents.
 
-This project is NOT mandatory at all. It is 100% optional. Doing any part of this project will add a project grade of over 100% to your average. Your score won’t get hurt if you don’t do it, but if your current average is greater than your score on this project, your average might go down. Have fun!
-Resources
+******************************************************************************
+*                                                                            *
+*                                                 _____  ______    ____  ___ *
+*    RSA Factoring Challenge                     /  _  \ |    |    \   \/  / *
+*    By: walabouguera                           /  /_\  \|    |     \     /  *
+*                                              /    |    \    |___  /     \  *
+*    <walabouguera996@gmail.com>               \____|__  /_______ \/___/\  \ *
+*    Created: 2023-12-17 13:29:43                      \/        \/      \_/ *
+*    Updated: 2023-12-18 03:05:55                                            *
+*                                                                            *
+******************************************************************************
+*/
 
-Read or watch:
 
-    RSA
-    How does HTTPS provide security?
-    Prime Factorization
-    Why RSA?
+
+# RSA-Factoring-Challenge
+
+### Problem Statement
+
+Factorize as many numbers as possible into a product of two smaller numbers.
+
+### Implementation
+
+Implementing the Pollard Rho algorithm as seen here:
+http://mathforum.org/library/drmath/view/65801.html
+
+### Constraints
+
+* No dependencies
+* 5s max to complete calculations
+* Required output: n=(p)(q)
+
+### Real World Application?
+
+Prime Factorization (or integer factorization) is a commonly used mathematical problem often used to secure public-key encryption systems. A common practice is to use very large semi-primes (that is, the result of the multiplication of two prime numbers) as the number securing the encryption. In order to break it, they would have to find the prime factorization of the large semi-prime number – that is, two or more **prime numbers** that multiplied together result in the original number.
+
 
