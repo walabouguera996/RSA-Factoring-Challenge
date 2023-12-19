@@ -30,4 +30,4 @@ http://mathforum.org/library/drmath/view/65801.html
 * No dependencies
 * 5s max to complete calculations
 * Required output: n=(p)(q)
-Compile C function: gcc -fPIC -shared -o lib_factors_functions.so factors_functions.c
+Compile C function: gcc -fPIC -shared -o 
